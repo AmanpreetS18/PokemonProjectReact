@@ -1,0 +1,73 @@
+.pokemon-app{
+    text-align: center;
+}
+.pokemon-container{
+      display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 6px;
+}
+.pokemon-card{
+    border: 1px solid;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+   
+    border-radius: 5px;
+                
+}
+.pokemon-logo{
+    height: 40vmin;
+    width: 40vmin;
+    pointer-events: none;
+}
+  .details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .details-card {
+
+    display: flex;
+    justify-content: space-evenly;
+    height:20em;
+    width:40em;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .details-card img {
+    max-width: 100%;
+    height: auto;
+  }
+ li::marker{
+    content: "🔥";
+ }
+ .btn{
+    background-color: coral;
+    border: none;
+    border-radius: 10%;
+    height:4em;
+    width: 8em;
+ }
+  
